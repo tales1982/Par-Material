@@ -71,6 +71,70 @@ body {
   font-size: 1.5em;
 }
 
+@media (max-width: 1440px) {
+  .pmat {
+    font-size: 3.5em;
+  }
+  .col-01 {
+    height: 140px;
+    width: 260px;
+    margin: 10px;
+    font-size: 1.2em;
+  }
+  .col-01:hover {
+    height: 150px;
+    width: 270px;
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 1024px) {
+  .pmat {
+    font-size: 3em;
+  }
+  .col-01 {
+    height: 110px;
+    width: 200px;
+    font-size: 1em;
+    margin: 8px;
+  }
+  .col-01:hover {
+    height: 120px;
+    width: 210px;
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 768px) {
+  .pmat {
+    font-size: 2em;
+  }
+  .col-01 {
+    height: 100px;
+    width: 170px;
+    font-size: 1em;
+    margin: 10px;
+  }
+  .col-01:hover {
+    height: 110px;
+    width: 180px;
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 425px) {
+  .pmat {
+    font-size: 1.5em;
+  }
+  .col-01 {
+    height: 90px;
+    width: 120px;
+    font-size: 0.8em;
+    margin: 5px;
+  }
+  .col-01:hover {
+    height: 110px;
+    width: 180px;
+    font-size: 0.9em;
+  }
+}
 body {
   margin: 0px;
   background-color: rgb(217, 211, 99);
@@ -78,6 +142,10 @@ body {
 
 .container {
   margin: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #section-0 {
@@ -171,43 +239,167 @@ a:hover {
   background-size: contain;
 }
 
-/*---------------------------------------------*/
-/*
-
-  body {
-    background: url(/img/002.jpeg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 300px;
-    height: 100vh;
-  }
-  .section-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    border-radius: 20px;
-    background-color: rgba(0, 255, 255, 0.307);
-    width: 400px;
-    height: 400px;
-    font-weight: 700;
+/*--------------------------Resposividade--------------*/
+@media (max-width: 1440px) {
+  #section-0 {
     font-size: 2em;
-    color: blue;
   }
-  .formulario{
-      display: flex;
-      flex-direction: column;
+  .menu {
+    font-size: 1em;
   }
-  .input{
-      height: 40px;
-      width: 180px;
-      font-size: 1em;
+  a:hover {
+    font-size: 1.1em;
   }
-  */
+  .section1 {
+    margin-top: 5px;
+    font-size: 0.7em;
+  }
+  .text {
+    font-size: 1.6em;
+  }
+  /*radio*/
+  #form_oui {
+    height: 20px;
+    width: 20px;
+  }
+  .imputHRS {
+    height: 25px;
+    width: 65px;
+    font-size: 1.5em;
+  }
+  .nomeForm {
+    height: 25px;
+    width: 220px;
+    font-size: 1.5em;
+  }
+  .telefone {
+    height: 25px;
+    width: 130px;
+    font-size: 1.5em;
+  }
+  /*pagina em construcao*/
+  .teste {
+    height: 98vh;
+    width: 100vw;
+    background-image: url(/img/construcao-1000x750.png);
+    background-repeat: repeat;
+    background-size: contain;
+  }
+}
+@media (max-width: 1024px) {
+  #section-0 {
+    font-size: 1.5em;
+  }
+  .menu {
+    font-size: 0.7em;
+  }
+  a:hover {
+    font-size: 0.8em;
+  }
+  .section1 {
+    margin-top: 2px;
+    font-size: 0.7em;
+  }
+  .text {
+    font-size: 1.1em;
+  }
+  /*radio*/
+  #form_oui {
+    height: 15px;
+    width: 15px;
+  }
+  .imputHRS {
+    height: 15px;
+    width: 45px;
+    font-size: 1.1em;
+  }
+  .nomeForm {
+    height: 15px;
+    width: 160px;
+    font-size: 1.1em;
+  }
+  .telefone {
+    height: 15px;
+    width: 100px;
+    font-size: 1.1em;
+  }
+  /*pagina em construcao*/
+}
+@media (max-width: 768px) {
+  #section-0 {
+    font-size: 1.5em;
+  }
+  .menu {
+    font-size: 0.8em;
+  }
+  a:hover {
+    font-size: 0.9em;
+  }
+  .section1 {
+    margin-top: 3px;
+    font-size: 0.8em;
+  }
+  .text {
+    font-size: 1em;
+  }
+  /*radio*/
+  #form_oui {
+    height: 15px;
+    width: 15px;
+  }
+  .imputHRS {
+    height: 15px;
+    width: 30px;
+    font-size: 0.8em;
+  }
+  .nomeForm {
+    height: 15px;
+    width: 140px;
+    font-size: 0.8em;
+  }
+  .telefone {
+    height: 15px;
+    width: 80px;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 425px) {
+  #section-0 {
+    font-size: 1em;
+  }
+  .menu {
+    font-size: 1;
+  }
+  a:hover {
+    font-size: 1em;
+  }
+  .section1 {
+    margin-top: 1px;
+    font-size: 1em;
+  }
+  .text {
+    font-size: 0.9em;
+  }
+  /*radio*/
+  #form_oui {
+    height: 20px;
+    width: 20px;
+  }
+  .imputHRS {
+    height: 20px;
+    width: 50px;
+    font-size: 0.9em;
+  }
+  .nomeForm {
+    height: 20px;
+    width: 100px;
+    font-size: 0.9em;
+  }
+  .telefone {
+    height: 20px;
+    width: 50px;
+    font-size: 0.5em;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

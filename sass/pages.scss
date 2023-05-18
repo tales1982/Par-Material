@@ -5,6 +5,9 @@ body{
     .container{
         margin: 10px;
     }
+    a{
+        text-decoration: none;
+    }
     
     #section-0{
         display: flex;
@@ -90,3 +93,176 @@ body{
     background-repeat: repeat;
    background-size: contain;
 }
+/*--------------------------Resposividade--------------*/
+@media (max-width: 1440px) {  
+    #section-0{
+        font-size: 2em;
+    }
+    
+    .menu{
+        font-size: 1em;
+    }
+    a:hover{
+        font-size: 1.1em;
+    }
+    .section1{
+        margin-top: 5px;
+        font-size: 0.7em;
+    }    
+    .text{
+        font-size: 1.6em;
+    }
+    
+    /*radio*/
+    #form_oui {
+        height: 20px;
+        width: 20px;
+    }
+    .imputHRS{
+    height: 25px;
+    width: 65px;
+    font-size: 1.5em;
+    }
+    .nomeForm{
+        height: 25px;
+        width: 220px;
+        font-size: 1.5em;
+    }
+    .telefone{
+        height: 25px;
+        width: 130px;
+        font-size: 1.5em;
+    }
+    /*pagina em construcao*/
+
+.teste{
+    height: 98vh;
+    width: 100vw;
+    background-image: url(/img/construcao-1000x750.png);
+    background-repeat: repeat;
+   background-size: contain;
+}
+
+   }
+ 
+   @media (max-width: 1024px) {
+    #section-0{
+        font-size: 1.5em;
+    }
+    
+    .menu{
+        font-size: 0.7em;
+    }
+    a:hover{
+        font-size: 0.8em;
+    }
+    .section1{
+        margin-top: 2px;
+        font-size: 0.7em;
+    }    
+    .text{
+        font-size: 1.1em;
+    }
+    
+    /*radio*/
+    #form_oui {
+        height: 15px;
+        width: 15px;
+    }
+    .imputHRS{
+    height: 15px;
+    width: 45px;
+    font-size: 1.1em;
+    }
+    .nomeForm{
+        height: 15px;
+        width: 160px;
+        font-size: 1.1em;
+    }
+    .telefone{
+        height: 15px;
+        width: 100px;
+        font-size: 1.1em;
+    }
+    /*pagina em construcao*/
+   }
+   @media (max-width: 768px) {
+    #section-0{
+        font-size: 1.5em;
+    }
+    
+    .menu{
+        font-size: 0.8em;
+    }
+    a:hover{
+        font-size: 0.9em;
+    }
+    .section1{
+        margin-top: 3px;
+        font-size: 0.8em;
+    }    
+    .text{
+        font-size: 1em;
+    }
+    
+    /*radio*/
+    #form_oui {
+        height: 15px;
+        width: 15px;
+    }
+    .imputHRS{
+    height: 15px;
+    width: 30px;
+    font-size: 0.8em;
+    }
+    .nomeForm{
+        height: 15px;
+        width: 140px;
+        font-size: 0.8em;
+    }
+    .telefone{
+        height: 15px;
+        width: 80px;
+        font-size: 0.8em;
+    }
+   }
+   @media (max-width: 425px) {
+    #section-0{
+        font-size: 1em;
+    }
+    
+    .menu{
+        font-size: 1;
+    }
+    a:hover{
+        font-size: 1em;
+    }
+    .section1{
+        margin-top: 1px;
+        font-size: 1em;
+    }    
+    .text{
+        font-size: 0.9em;
+    }
+    
+    /*radio*/
+    #form_oui {
+        height: 20px;
+        width: 20px;
+    }
+    .imputHRS{
+    height: 20px;
+    width: 50px;
+    font-size: 0.9em;
+    }
+    .nomeForm{
+        height: 20px;
+        width: 100px;
+        font-size: 0.9em;
+    }
+    .telefone{
+        height: 20px;
+        width: 50px;
+        font-size: 0.5em;
+    }
+   }
