@@ -1,6 +1,6 @@
 /*
 para ativar o sass. 
-sass --watch sass/style.sass:css/style.css
+sass --watch sass/style.scss:css/style.css
 ------------------------------------------------
 */
 /*Import variables*/
@@ -143,15 +143,15 @@ a:hover {
   box-shadow: 2px 2px rgb(142, 7, 7);
 }
 
-#fhrs, #fhrs2, #fhrs3, #fhrs4, #fhrs5, #fhrs6 {
+#fhrs, #fhrs2, #fhrs3, #fhrs4, #fhrs5, #fhrs6, #fhrs7, #fhrs8, #fhrs9, #fhrs10, #fhrs11, #fhrs12, #fhrs13, #fhrs14 {
   width: 100px;
 }
 
-#fdisp, #fdisp2, #fdisp3, #fdisp4, #fdisp5, #fdisp6 {
+#fdisp, #fdisp2, #fdisp3, #fdisp4, #fdisp5, #fdisp6, #fdisp7, #fdisp8, #fdisp9, #fdisp10, #fdisp11, #fdisp12, #fdisp13, #fdisp14 {
   width: 60px;
 }
 
-#ftel, #ftel2, #ftel3, #ftel4, #ftel5, #ftel6 {
+#ftel, #ftel2, #ftel3, #ftel4, #ftel5, #ftel6, #ftel7, #ftel8, #ftel9, #ftel10, #ftel11, #ftel12, #ftel13, #ftel14 {
   width: 220px;
 }
 
