@@ -1,173 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/JS/index.js"defer></script>
-    <title>Parc Materiel</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/public/dist/index.js" defer></script>
+  <title>Parc Materiel</title>
 </head>
+
 <body>
-    <div class="container">
-<section id="section-0">
-        <h1>Machines de 3 à 6 Tonnes</h1>
-</section>
-<section id="section-menu">
-<ul class="menu">
-    <li><a href="/home.html">HOME</a></li>
-    <li><a href="/page/vio1.html">Mini-pelle jusque 3T</a></li>
-    <li><a href="/page/vio2.html">Mini-pelle de 3 jusque 6T</a></li>
-    <li><a href="/page/vio3.html">Mini-pelle de 6T jusque 10T</a></li>
-    <li><a href="/page/vio4.html">Mini Chargeur sur pneus</a></li>
-    <li><a href="/page/vio5.html">Chargeur sur pneus</a></li>
-    <li><a href="/page/vio6.html">Dumper</a></li>
-    <li><a href="/page/vio7.html">Compactage</a></li>
-    <li><a href="/page/vio8.html">Groupe électrogène</a></li>
-    <li><a href="/page/vio9.html">DRIVERS</a></li>
-</ul>
-</section>
-<section class="section2">
-        <p class="text"> Vio3.3</p>
-        <p class="text"> Serie..: 0000 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio" value="vio">
-        <label for="vio"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio" value="vio">
-        <label for="vio"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
-</section>
-<section class="section2">
-        <p class="text"> Vio3.8</p>
-        <p class="text"> Serie..: 1111 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio1" value="vio">
-        <label for="vio1"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio1" value="vio">
-        <label for="vio1"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
-</section>
-<section class="section2">
-        <p class="text"> Vio50</p>
-        <p class="text"> Serie..: 2222 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio2" value="vio">
-        <label for="vio2"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio2" value="vio">
-        <label for="vio2"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
+  <div class="container">
+    <section id="section-0">
+      <h1>Machines de 3 à 6 Tonnes</h1>
+    </section>
+    <section id="section-menu">
 
-</section>
-<section class="section2">
-        <p class="text"> Vio50</p>
-        <p class="text"> Serie..: 8888 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio12" value="vio">
-        <label for="vio12"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio12" value="vio">
-        <label for="vio12"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
-</section>
-<section class="section2">
-        <p class="text"> Vio50</p>
-        <p class="text"> Serie..: 5555 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio17" value="vio">
-        <label for="vio17"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio17" value="vio">
-        <label for="vio17"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
-</section>
-<section class="section2">
-        <p class="text"> Vio50</p>
-        <p class="text"> Serie..: 6666 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio22" value="vio">
-        <label for="vio22"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio22" value="vio">
-        <label for="vio22"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
+      <button type="button" class="btnstyle"><a href="/home.html">HOME</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio1.html">Mini-pelle a 3T</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio2.html">Mini-pelle de 3 a 6T</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio3.html">Mini-pelle de 6T a 10T</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio4.html">Chargeur sur pneus</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio5.html">Dumper</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio6.html">Compactage</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio7.html">Groupe électrogène</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio8.html">DRIVERS</a></button>
+      <button type="button" class="btnstyle"><a href="/page/vio9.html">Calc</a></button>
+      <button type="submit" class="btn">Enviar</button>
+    </section>
+    <section class="section1 SET-21">
+      <p class="text">Vio33</p>
+      <p class="text">Serie..: 21623</p>
+      <p>
+        <label for="fhrs21" class="text">Heures..:</label>
+        <input type="number" id="fhrs21" name="fhrs21" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp21" class="text">Disponible :</label>
+        <input type="text" id="fdisp21" name="fdisp21" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname21" class="text">Nom du client:</label>
+        <input type="text" id="fname21" name="fname21" class="tailForm fname21" placeholder="">
+      </p>
+      <p>
+        <label for="ftel21" class="text">Telefone..:</label>
+        <input type="number" id="ftel21" name="ftel21" class="tailForm ftel">
+      </p>
 
-</section>
-<section class="section2">
-        <p class="text"> Vio57</p>
-        <p class="text"> Serie..: 7777 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio23" value="vio">
-        <label for="vio23"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio23" value="vio">
-        <label for="vio23"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
+    </section>
+    <section class="section1 SET-22">
+      <p class="text">SY15</p>
+      <p class="text">Serie..: 2078</p>
+      <p>
+        <label for="fhrs22" class="text">Heures..:</label>
+        <input type="number" id="fhrs22" name="fhrs22" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp22" class="text">Disponible :</label>
+        <input type="text" id="fdisp22" name="fdisp22" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname22" class="text">Nom du client:</label>
+        <input type="text" id="fname22" name="fname22" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel22" class="text">Telefone..:</label>
+        <input type="number" id="ftel22" name="ftel22" class="tailForm ftel">
+      </p>
 
-</section>
-<section class="section2">
-        <p class="text"> Vio57</p>
-        <p class="text"> Serie..: 8888 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio25" value="vio">
-        <label for="vio25"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio25" value="vio">
-        <label for="vio25"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
+    </section>
+    <section class="section1 SET-23">
+      <p class="text">Vio38</p>
+      <p class="text">Serie..: 6488</p>
+      <p>
+        <label for="fhrs23" class="text">Heures..:</label>
+        <input type="number" id="fhrs23" name="fhrs23" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp23" class="text">Disponible :</label>
+        <input type="text" id="fdisp23" name="fdisp23" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname23" class="text">Nom du client:</label>
+        <input type="text" id="fname23" name="fname23" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel23" class="text">Telefone..:</label>
+        <input type="number" id="ftel23" name="ftel23" class="tailForm ftel">
+      </p>
 
-</section>
-<section class="section2">
-        <p class="text"> Vio60</p>
-        <p class="text"> Serie..: 8888 </p>
-        <p><label for="fhrs"class="text">Heures..:</label>
-        <input type="number" id="fhrs" name="fhrs"class="imputHRS"></p>
-        <p><label for="vio"class="text"> La Machine est Disponible:</label>
-        <input type="radio" id="form_oui" name="vio60" value="vio">
-        <label for="vio60"class="text">OUI</label>
-        <input type="radio" id="form_oui" name="vio60" value="vio">
-        <label for="vio60"class="text">NON</label></p>
-        <p><label for="fname"class="text">Nom du client:</label>
-        <input type="text" id="fname" name="fname"class="nomeForm"></p>
-        <p><label for="ftel"class="text">Telefone..:</label>
-        <input type="number" id="ftel" name="ftel" class="telefone"></p>
+    </section>
+    <section class="section1 SET-24">
+      <p class="text">Vio50</p>
+      <p class="text">Serie..: 5463</p>
+      <p>
+        <label for="fhrs24" class="text">Heures..:</label>
+        <input type="number" id="fhrs24" name="fhrs24" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp24" class="text">Disponible :</label>
+        <input type="text" id="fdisp24" name="fdisp24" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname24" class="text">Nom du client:</label>
+        <input type="text" id="fname24" name="fname24" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel24" class="text">Telefone..:</label>
+        <input type="number" id="ftel24" name="ftel24" class="tailForm ftel">
+      </p>
 
-</section>
+    </section>
+    <section class="section1 SET-25">
+      <p class="text">Vio50</p>
+      <p class="text">Serie..: 2112</p>
+      <p>
+        <label for="fhrs25" class="text">Heures..:</label>
+        <input type="number" id="fhrs25" name="fhrs25" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp25" class="text">Disponible :</label>
+        <input type="text" id="fdisp25" name="fdisp25" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname25" class="text">Nom du client:</label>
+        <input type="text" id="fname25" name="fname25" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel25" class="text">Telefone..:</label>
+        <input type="number" id="ftel25" name="ftel25" class="tailForm ftel">
+      </p>
 
-    </div>
+    </section>
+    <section class="section1 SET-26">
+      <p class="text">Vio50</p>
+      <p class="text">Serie..: 2815</p>
+      <p>
+        <label for="fhrs26" class="text">Heures..:</label>
+        <input type="number" id="fhrs26" name="fhrs26" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp26" class="text">Disponible :</label>
+        <input type="text" id="fdisp26" name="fdisp26" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname26" class="text">Nom du client:</label>
+        <input type="text" id="fname26" name="fname26" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel26" class="text">Telefone..:</label>
+        <input type="number" id="ftel26" name="ftel26" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-27">
+      <p class="text">Vio50</p>
+      <p class="text">Serie..: 1874</p>
+      <p>
+        <label for="fhrs27" class="text">Heures..:</label>
+        <input type="number" id="fhrs27" name="fhrs27" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp27" class="text">Disponible :</label>
+        <input type="text" id="fdisp27" name="fdisp27" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname27" class="text">Nom du client:</label>
+        <input type="text" id="fname27" name="fname27" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel27" class="text">Telefone..:</label>
+        <input type="number" id="ftel27" name="ftel27" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-28">
+      <p class="text">Vio50</p>
+      <p class="text">Serie..: 5924</p>
+      <p>
+        <label for="fhrs28" class="text">Heures..:</label>
+        <input type="number" id="fhrs28" name="fhrs28" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp28" class="text">Disponible :</label>
+        <input type="text" id="fdisp28" name="fdisp28" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname28" class="text">Nom du client:</label>
+        <input type="text" id="fname28" name="fname28" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel28" class="text">Telefone..:</label>
+        <input type="number" id="ftel28" name="ftel28" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-29">
+      <p class="text">SY50</p>
+      <p class="text">Serie..: 5598</p>
+      <p>
+        <label for="fhrs29" class="text">Heures..:</label>
+        <input type="number" id="fhrs29" name="fhrs29" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp29" class="text">Disponible :</label>
+        <input type="text" id="fdisp29" name="fdisp29" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname29" class="text">Nom du client:</label>
+        <input type="text" id="fname29" name="fname29" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel29" class="text">Telefone..:</label>
+        <input type="number" id="ftel29" name="ftel29" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-30">
+      <p class="text">Vio57</p>
+      <p class="text">Serie..: 9518</p>
+      <p>
+        <label for="fhrs30" class="text">Heures..:</label>
+        <input type="number" id="fhrs30" name="fhrs30" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp30" class="text">Disponible :</label>
+        <input type="text" id="fdisp30" name="fdisp30" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname30" class="text">Nom du client:</label>
+        <input type="text" id="fname30" name="fname30" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel30" class="text">Telefone..:</label>
+        <input type="number" id="ftel30" name="ftel30" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-31">
+      <p class="text">Vio57</p>
+      <p class="text">Serie..: 2037</p>
+      <p>
+        <label for="fhrs31" class="text">Heures..:</label>
+        <input type="number" id="fhrs31" name="fhrs31" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp31" class="text">Disponible :</label>
+        <input type="text" id="fdisp31" name="fdisp31" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname31" class="text">Nom du client:</label>
+        <input type="text" id="fname31" name="fname31" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel31" class="text">Telefone..:</label>
+        <input type="number" id="ftel31" name="ftel31" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-32">
+      <p class="text">Vio57</p>
+      <p class="text">Serie..: 1889</p>
+      <p>
+        <label for="fhrs32" class="text">Heures..:</label>
+        <input type="number" id="fhrs32" name="fhrs32" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp32" class="text">Disponible :</label>
+        <input type="text" id="fdisp32" name="fdisp32" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname32" class="text">Nom du client:</label>
+        <input type="text" id="fname32" name="fname32" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel32" class="text">Telefone..:</label>
+        <input type="number" id="ftel32" name="ftel32" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-33">
+      <p class="text">Vio57</p>
+      <p class="text">Serie..: 3654</p>
+      <p>
+        <label for="fhrs33" class="text">Heures..:</label>
+        <input type="number" id="fhrs33" name="fhrs33" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp33" class="text">Disponible :</label>
+        <input type="text" id="fdisp33" name="fdisp33" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname33" class="text">Nom du client:</label>
+        <input type="text" id="fname33" name="fname33" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel33" class="text">Telefone..:</label>
+        <input type="number" id="ftel33" name="ftel33" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-34">
+      <p class="text">Vio57</p>
+      <p class="text">Serie..: 0317</p>
+      <p>
+        <label for="fhrs34" class="text">Heures..:</label>
+        <input type="number" id="fhrs34" name="fhrs34" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp34" class="text">Disponible :</label>
+        <input type="text" id="fdisp34" name="fdisp34" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname34" class="text">Nom du client:</label>
+        <input type="text" id="fname34" name="fname34" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel34" class="text">Telefone..:</label>
+        <input type="number" id="ftel34" name="ftel34" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-35">
+      <p class="text">Vio60</p>
+      <p class="text">Serie..: 3061</p>
+      <p>
+        <label for="fhrs35" class="text">Heures..:</label>
+        <input type="number" id="fhrs35" name="fhrs35" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp35" class="text">Disponible :</label>
+        <input type="text" id="fdisp35" name="fdisp35" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname35" class="text">Nom du client:</label>
+        <input type="text" id="fname35" name="fname35" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel35" class="text">Telefone..:</label>
+        <input type="number" id="ftel35" name="ftel35" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-36 vide">
+      <p class="text">VAZIO</p>
+      <p class="text">Serie..: 0000</p>
+      <p>
+        <label for="fhrs36" class="text">Heures..:</label>
+        <input type="number" id="fhrs36" name="fhrs36" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp36" class="text">Disponible :</label>
+        <input type="text" id="fdisp36" name="fdisp36" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname36" class="text">Nom du client:</label>
+        <input type="text" id="fname36" name="fname36" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel36" class="text">Telefone..:</label>
+        <input type="number" id="ftel36" name="ftel36" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-37 vide">
+      <p class="text">VAZIO</p>
+      <p class="text">Serie..: 0000</p>
+      <p>
+        <label for="fhrs37" class="text">Heures..:</label>
+        <input type="number" id="fhrs37" name="fhrs37" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp37" class="text">Disponible :</label>
+        <input type="text" id="fdisp37" name="fdisp37" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname37" class="text">Nom du client:</label>
+        <input type="text" id="fname37" name="fname37" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel37" class="text">Telefone..:</label>
+        <input type="number" id="ftel37" name="ftel37" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-38 vide">
+      <p class="text">VAZIO</p>
+      <p class="text">Serie..: 0000</p>
+      <p>
+        <label for="fhrs38" class="text">Heures..:</label>
+        <input type="number" id="fhrs38" name="fhrs38" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp38" class="text">Disponible :</label>
+        <input type="text" id="fdisp38" name="fdisp38" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname38" class="text">Nom du client:</label>
+        <input type="text" id="fname38" name="fname38" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel38" class="text">Telefone..:</label>
+        <input type="number" id="ftel38" name="ftel38" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-39 vide">
+      <p class="text">VAZIO</p>
+      <p class="text">Serie..: 0000</p>
+      <p>
+        <label for="fhrs39" class="text">Heures..:</label>
+        <input type="number" id="fhrs39" name="fhrs39" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp39" class="text">Disponible :</label>
+        <input type="text" id="fdisp39" name="fdisp39" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname39" class="text">Nom du client:</label>
+        <input type="text" id="fname39" name="fname39" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel39" class="text">Telefone..:</label>
+        <input type="number" id="ftel39" name="ftel39" class="tailForm ftel">
+      </p>
+
+    </section>
+    <section class="section1 SET-40 vide">
+      <p class="text">VAZIO</p>
+      <p class="text">Serie..: 0000</p>
+      <p>
+        <label for="fhrs40" class="text">Heures..:</label>
+        <input type="number" id="fhrs40" name="fhrs40" class="tailForm fhrs" placeholder="">
+      </p>
+      <p>
+        <label for="fdisp40" class="text">Disponible :</label>
+        <input type="text" id="fdisp40" name="fdisp40" class="tailForm fdisp" placeholder="">
+      </p>
+      <p>
+        <label for="fname40" class="text">Nom du client:</label>
+        <input type="text" id="fname40" name="fname40" class="tailForm fname" placeholder="">
+      </p>
+      <p>
+        <label for="ftel40" class="text">Telefone..:</label>
+        <input type="number" id="ftel40" name="ftel40" class="tailForm ftel">
+      </p>
+
+    </section>
+  </div>
 </body>
+
 </html>

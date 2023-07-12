@@ -1,14 +1,88 @@
 
+interface FormDataElement {
+  hora: string;
+  disp: string;
+  nome: string;
+  tel: string;
+}
+
+const buttonElement = document.querySelector(".btn") as HTMLButtonElement;
+
+document.addEventListener("DOMContentLoaded", function() {
+buttonElement.addEventListener("click", () => {
+  const formData = [];
+
+  for (let i = 21; i <= 40; i++) {
+    const horaElement = document.querySelector(`#fhrs${i}`) as HTMLInputElement;
+    const valorHora = horaElement.value;
+    const inputElement = horaElement;
+    let placeholderValueHora = inputElement.placeholder;
+    placeholderValueHora = valorHora;
+    localStorage.setItem(`ValorHoraSalva${i}`, placeholderValueHora);
+
+    const dispElement = document.querySelector(`#fdisp${i}`) as HTMLInputElement;
+    const valordisp = dispElement.value;
+    const inputdisp = dispElement;
+    let placeholderValuedisp = inputdisp.placeholder;
+    placeholderValuedisp = valordisp;
+    localStorage.setItem(`ValordispSalvo${i}`, placeholderValuedisp);
+
+    const nomeElement = document.querySelector(`#fname${i}`) as HTMLInputElement;
+    const valorNome = nomeElement.value;
+    const inputNome = nomeElement;
+    let placeholderValueNome = inputNome.placeholder;
+    placeholderValueNome = valorNome;
+    localStorage.setItem(`ValorNomeSalvo${i}`, placeholderValueNome);
+
+    const telElement = document.querySelector(`#ftel${i}`) as HTMLInputElement;
+    const valorTel = telElement.value;
+    const inputTel = telElement;
+    let placeholderValueTel = inputTel.placeholder;
+    placeholderValueTel = valorTel;
+    localStorage.setItem(`ValorTelSalvo${i}`, placeholderValueTel);
+
+    formData.push({
+    hora: placeholderValueHora,
+    disp: placeholderValuedisp,
+    nome: placeholderValueNome,
+    tel: placeholderValueTel
+    });
+  }
+
+  localStorage.setItem("FormData", JSON.stringify(formData));
+});
+
+
+
+
+window.addEventListener("load", function () {
+    const formData: FormDataElement[] = JSON.parse(localStorage.getItem("FormData") || "[]");
+
+  formData.forEach((data, i ) => {
+    const inputHora = document.querySelector(`#fhrs${i + 1}`) as HTMLInputElement;
+    const inputdisp = document.querySelector(`#fdisp${i + 1}`) as HTMLInputElement;
+    const inputNome = document.querySelector(`#fname${i + 1}`) as HTMLInputElement;
+    const inputTel = document.querySelector(`#ftel${i + 1}`) as HTMLInputElement;
+
+    inputHora.value = data.hora || "";
+    inputdisp.value = data.disp || "";
+    inputNome.value = data.nome || "";
+    inputTel.value = data.tel || "";
+  });
+});
+});
+/*
 const buttonElement = document.querySelector(".btn") as HTMLButtonElement;
 
 buttonElement.addEventListener("click", () => {
     //capturando Hora
-const horaElement = document.querySelector(".fhrs") as HTMLInputElement;
-const valorHora = horaElement.value;
-const inputElement = horaElement;
-let placeholderValueHora = inputElement.placeholder;
-placeholderValueHora = valorHora;
-localStorage.setItem("ValorHoraSalva",placeholderValueHora);
+const horaElement = document.querySelect   formData.push({
+      hora: placeholderValueHora,
+      disp: placeholderValuedisp,
+      nome: placeholderValueNome,
+      tel: placeholderValueTel
+    });
+  }placeholderValueHora);
 
 const horaElement2 = document.querySelector("#fhrs2") as HTMLInputElement;
 const valorHora2 = horaElement2.value;
@@ -400,8 +474,10 @@ let placeholderValueTel14 = inputTel14.placeholder;
 placeholderValueTel14 = valorTel14;
 localStorage.setItem("ValorTelSalvo14",placeholderValueTel14);
 });
+*/
 /*=========================================================== */
 //Lendo valores do localStorange
+/*
 window.addEventListener("load",function(){
     //Hora
     const inputHora = document.querySelector("#fhrs") as HTMLInputElement;
@@ -724,3 +800,4 @@ window.addEventListener("load",function(){
         inputTel14.value = valorTel14
     }
 })
+*/
